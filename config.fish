@@ -1,8 +1,10 @@
 
 set -l fish_path "$HOME/.config/fish"
 
-. "$fish_path/prompt.fish"
+## Load some fancy stuff
+. "$fish_path/functions/git.fish"
 . "$fish_path/functions/aliases.fish"
+. "$fish_path/prompt.fish"
 . "$fish_path/env.fish"
 
 ## Configure theFuck
